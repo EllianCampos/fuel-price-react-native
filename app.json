@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PrecioGasolina",
+    "slug": "PrecioGasolina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.elliang.PrecioGasolina"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c4d898eb-b164-4530-a240-495fb0b014d7"
+      }
+    }
+  }
+}
